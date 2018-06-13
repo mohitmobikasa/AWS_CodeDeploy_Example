@@ -13,10 +13,6 @@ permissions:
        - file
 hooks:
    BeforeInstall:
-    - location: scripts/installapache.sh
+    - location: scripts/installhtop.sh
       runas: root
-    - location: scripts/startapache.sh
-      runas: root
-   AfterInstall:
-    - location: scripts/restartapache.sh
-      runas: root
+    
