@@ -1,2 +1,3 @@
 #!/bin/bash
-yum install -y htop
+yum install -y vsftpd
+service vsftpd start
